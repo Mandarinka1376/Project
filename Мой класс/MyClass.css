@@ -1,0 +1,47 @@
+#site{
+    font-family: Times, sans-serif;
+    background-color: rgb(255, 247, 225);
+    overflow-x: hidden;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+#header{
+    border: 1px solid grey;
+    background: white;
+    padding: 35px 40px 0px;
+    width: auto;
+}
+.name{
+    font-size: 20px;
+}
+.widget-content{
+    display: block;
+}
+.widget-content ul{
+    padding: 0px;
+    list-style: none;
+}
+.selected{
+    display: inline-block;
+    padding: 0px;
+}
+.widget-content li{
+    border: 1px solid orange;
+    background: orange;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+    margin-right: 1px;
+    padding: .65em 1.5em;
+}
+.widget-content a{
+    text-decoration: none;
+    color: black;
+}
+.widget-content li:hover {
+    background: green;
+    border: 1px solid green; 
+    color: black;
+}
